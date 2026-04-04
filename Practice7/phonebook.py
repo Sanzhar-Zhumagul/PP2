@@ -7,8 +7,8 @@ def create_table():
     cur.execute("""
     CREATE TABLE IF NOT EXISTS contacts (
         id SERIAL PRIMARY KEY,
-        name VARCHAR(100),
-        phone VARCHAR(20) UNIQUE
+        name VARCHAR(100) NOT NULL,
+        phone VARCHAR(20) NOT NULL UNIQUE
     );
     """)
     conn.commit()

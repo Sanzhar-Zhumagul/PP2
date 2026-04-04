@@ -1,7 +1,7 @@
 DB = {
     "dbname": "phonebook",
-    "user": "postgres",
-    "password": "your_password",
+    "user": "sanjuma",
+    "password": "12345678",
     "host": "localhost",
     "port": "5432"
 }
