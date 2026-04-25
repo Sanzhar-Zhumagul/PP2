@@ -21,7 +21,7 @@ def main():
             # Обработка одиночных нажатий клавиш
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_UP:
-                    ball.move(0, -ball.step)
+                    ball.move(ball.step, -ball.step)
                 elif event.key == pygame.K_DOWN:
                     ball.move(0, ball.step)
                 elif event.key == pygame.K_LEFT:
